@@ -3,4 +3,4 @@
 Made with R (ggplot).
 
 Found here...
-https://hub.mybinder.org/user/jgygi-reproducibility_demo-gysv7lot/notebooks/index.ipynb
+https://mybinder.org/v2/gh/BIO465/2019_Winter_MS_NLP/master?filepath=bio465g5fig1.ipynb
