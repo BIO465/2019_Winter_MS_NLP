@@ -17,7 +17,7 @@ cd
 
 #make Software Directory
 softwareFolder=Group_Software
-#mkdir -p $softwareFolder
+mkdir -p $softwareFolder
 
 #installing miniconda
 softwareName=$softwareFolder/miniconda
