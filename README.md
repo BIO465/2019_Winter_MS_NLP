@@ -10,18 +10,22 @@ https://mybinder.org/v2/gh/BIO465/2019_Winter_MS_NLP/master?filepath=bio465g5fig
 
 ## Running Jupyter notebook
 
-To run jupyter notebook:
+1. Install software
 
-1. Forward port
+```{bash}
+bash setup_env/install_env.sh
+```
+
+2. Forward port - you will have to run 2 and 3 in a separate terminal 
 
 ```{bash}
 ssh -N -L localhost:8888:localhost:8889 username@ssh.fsl.byu.edu
 ```
 
-2. Run jupyter notebook on super computer
+3. Run jupyter notebook on super computer
 
 Navigate to our project folder on the super computer
 
 ```{bash}
-bash activate_jupyter_notebook.sh
+bash setup_env/activate_jupyter_notebook.sh
 ```

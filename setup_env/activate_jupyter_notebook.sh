@@ -1,9 +1,10 @@
 #! /bin/bash
 
 # navigate to
-cd Software/miniconda/bin
+cd 
+cd Group_Software/miniconda/bin
 
-source activate nlp_env
+source activate jupyter_env 
 
 cd ../../..
 
